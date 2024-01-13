@@ -1,5 +1,5 @@
 * {
-    font-family:  sans-serif;
+    font-family: sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box
@@ -17,13 +17,12 @@ header {
     padding: 1% 10%;
 }
 
-
 .navheader {
     z-index: 2;
 }
 
 nav h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 nav li {
@@ -43,16 +42,18 @@ nav li a:active {
 
 }
 
-nav li a:hover {
+nav li a:hover,
+.drp:hover {
     color: red;
 }
-.drp{
+
+.drp {
     padding: 3%;
     box-shadow: none;
-    border:none;
+    border: none;
     color: white;
     font-size: larger;
-    background-color:rgba(124, 124, 124, 0.6);
+    background-color: rgba(124, 124, 124, 0.6);
 }
 
 /* back ground-image */
@@ -77,23 +78,21 @@ nav li a:hover {
     transform: translate(-50%, -50%);
 }
 
-.btn {
-    background-color: rgba(136, 134, 134, 0.6);
+.title button {
     font-size: 20px;
     color: white;
     border-radius: 40px;
-    padding: 20px;
-    width: 300px;
+    padding: 10px;
 }
 
-.title button {
+.btn button {
+    background-color: rgba(160, 160, 160, 0.6);
+    border: none;
+}
+
+.get button {
     background-color: transparent;
-    font-size: 20px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 40px;
-    padding: 20px;
-    width: 300px;
+    border: 1px solid white;
 }
 
 .title h1 {
@@ -108,8 +107,14 @@ nav li a:hover {
     color: red;
 }
 
-/* section2 */
-.servicepart {
+/* section2 starts
+text for section3, section4, section5 is same as section2 
+so each section is styled together 
+below service text is styled and of others */
+.servicepart,
+.portfoliotext,
+.teamtext,
+.contactus {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -117,25 +122,37 @@ nav li a:hover {
     padding: 2% 6%;
 }
 
-.servicepart button {
+.servicepart button,
+.portfoliotext button,
+.teamtext button,
+.contactus button {
     background-color: pink;
     border: none;
     color: rgb(211, 9, 76);
     border-radius: 20px;
-    padding: 9px 12px;
+    padding: 15%;
     font-size: 15px;
 }
 
-.servicepart button:hover {
+.servicepart button:hover,
+.portfoliotext button:hover,
+.teamtext button:hover,
+.contactus button:hover {
     color: red;
     background-color: antiquewhite;
 }
 
-.servicepart b {
+.servicepart b,
+.portfoliotext b,
+.teamtext b,
+.contactus b {
     color: rgb(211, 9, 76);
 }
 
-.servicepart p {
+.servicepart p,
+.portfoliotext p,
+.teamtext p,
+.contactus p {
     font-size: 20px;
 }
 
@@ -154,7 +171,7 @@ nav li a:hover {
 #box3,
 #box4 {
     background-color: white;
-    padding: 4% 3%;
+    padding: 4% 2%;
     height: 280px;
     width: 24%;
 }
@@ -169,55 +186,23 @@ nav li a:hover {
 }
 
 /* section3  */
-/* portfolio text */
-.portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 2% 6%;
-}
-
-.portfoliobutton button {
-    background-color: pink;
-    border: none;
-    color: rgb(211, 9, 76);
-    border-radius: 20px;
-    padding: 9px 12px;
-    font-size: 15px;
-}
-
-.portfoliobutton button:hover {
-    color: red;
-    background-color: antiquewhite;
-}
-
-.portfolio b {
-    color: rgb(211, 9, 76);
-}
-
-.portfolio p {
-    font-size: 20px;
-}
-
+/* portfoliotext is styled with section2 below are extra buttons*/
 .portfolio_a button {
     background-color: rgb(221, 219, 219);
     border: none;
-    color: rgb(54, 54, 54);
+    color: rgb(211, 9, 76);
     border-radius: 20px;
-    padding: 5px 24px;
+    padding: 9px 20px;
     font-size: 15px;
 }
 
 .portfolio_a button:hover {
-    color: red;
-    background-color: antiquewhite;
+    color: white;
+    background-color: rgb(211, 9, 76);
 }
 
 /* portfolio images */
 .portfimg {
-    display: block;
     display: flex;
     flex-flow: wrap;
     align-items: center;
@@ -230,41 +215,13 @@ nav li a:hover {
 }
 
 /* section4 */
-.teamtext {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 2% 6%;
-}
-
-.teamtext button {
-    background-color: pink;
-    border: none;
-    color: rgb(211, 9, 76);
-    border-radius: 20px;
-    padding: 9px 24px;
-    font-size: 15px;
-}
-
-.teamtext button:hover {
-    color: red;
-    background-color: antiquewhite;
-}
-
-.teamtext b {
-    color: rgb(211, 9, 76);
-}
-
-.teamtext p {
-    font-size: 20px;
-}
-
+/* teamtext is styled with section2 */
 /* section4 4 team member */
 .members {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 .members img {
@@ -274,9 +231,6 @@ nav li a:hover {
 
 .t1 {
     box-shadow: 1px 1px 10px rgb(119, 119, 119);
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-
 }
 
 .t1:hover {
@@ -284,7 +238,8 @@ nav li a:hover {
 }
 
 #t2 {
-    padding: 6%;
+
+    padding: 4%;
 }
 
 #t2 p {
@@ -292,42 +247,12 @@ nav li a:hover {
 }
 
 /* section5  */
-.contactus {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 2% 6%;
-}
-
-.contactus button {
-    background-color: pink;
-    border: none;
-    color: rgb(211, 9, 76);
-    border-radius: 20px;
-    padding: 9px 24px;
-    font-size: 15px;
-}
-
-.contactus button:hover {
-    color: red;
-    background-color: antiquewhite;
-}
-
-.contactus b {
-    color: rgb(211, 9, 76);
-}
-
-.contactus p {
-    font-size: 20px;
-}
-
-/* section5 form description */
+/* contactus is styled with section2 */
+/* section5 form and description */
 .loc {
-
     height: 300px;
     width: 80%;
-    margin-left: 130px;
+    margin-left: 10%;
     background-color: rgb(177, 177, 177);
 }
 
@@ -335,24 +260,23 @@ nav li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 370px;
+    height: 360px;
     width: 80%;
-    margin-left: 130px;
-
+    margin-left: 10%;
+    padding: 2% 0% 0% 0%;
 }
 
 .details {
-    height: 370px;
-    width: 30%;
+    margin: 0px 0px 16% 0px;
 }
 
 .details img {
     height: 40px;
     width: 40px;
-    background-color: pink;
+    background-color: rgb(216, 214, 215);
     border: none;
-    padding: 12px;
-    border-radius: 10px;
+    padding: 18%;
+    border-radius: 20%;
 }
 
 .details h3 {
@@ -363,48 +287,50 @@ nav li a:hover {
     font-size: 15px;
 }
 
-.l {
-    display: inline-flex;
-    padding: 25px 10px;
+.left3 {
+    display: flex;
 }
 
-.form {
-    padding: 25px 0px;
-    height: 370px;
-    width: 69.5%;
+.tx3 {
+    padding: 0px 2%;
+}
+
+#msg,
+#nm,
+#em,
+#sb {
+    border: 1px solid rgb(173, 171, 171);
+    padding: 0px 20px;
+}
+
+#nm,
+#em,
+#sb {
+    height: 40px;
 }
 
 #nm,
 #em {
-    height: 40px;
     width: 49.5%;
-    padding: 0px 20px;
-    border:1px solid rgb(173, 171, 171);
 }
 
-#sb{
-    padding: 0px 20px;
-    border:1px solid rgb(173, 171, 171);
-    height: 40px;
-    width: 100%;
-}
+#sb,
 #msg {
-    padding: 0px 20px;
-    border:1px solid rgb(173, 171, 171);
-
     width: 100%;
 }
-.form button{
-    margin-left:70%;
+
+
+.form button {
+    margin-left: 70%;
     background-color: rgb(194, 25, 82);
     color: white;
     font-size: 15px;
     border: none;
-    border-radius:30px ;
-    padding: 10px;
-}
-.form button:hover{
-    background-color:pink;
-    color:rgb(238, 7, 84) ;
+    border-radius: 30px;
+    padding: 2%;
 }
 
+.form button:hover {
+    background-color: pink;
+    color: rgb(238, 7, 84);
+}
