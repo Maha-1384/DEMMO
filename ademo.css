@@ -1,0 +1,410 @@
+* {
+    font-family:  sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+/* header and navbar */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 43, 43, 0.3);
+    position: fixed;
+    color: white;
+    padding: 1% 10%;
+}
+
+
+.navheader {
+    z-index: 2;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav li {
+    padding: 0% 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav li a:active {
+    border-bottom: red;
+
+}
+
+nav li a:hover {
+    color: red;
+}
+.drp{
+    padding: 3%;
+    box-shadow: none;
+    border:none;
+    color: white;
+    font-size: larger;
+    background-color:rgba(124, 124, 124, 0.6);
+}
+
+/* back ground-image */
+.bg-img img {
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+/* section1  */
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: rgba(136, 134, 134, 0.6);
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    width: 300px;
+}
+
+.title button {
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    width: 300px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+.title button:hover {
+    color: red;
+}
+
+/* section2 */
+.servicepart {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.servicepart button {
+    background-color: pink;
+    border: none;
+    color: rgb(211, 9, 76);
+    border-radius: 20px;
+    padding: 9px 12px;
+    font-size: 15px;
+}
+
+.servicepart button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.servicepart b {
+    color: rgb(211, 9, 76);
+}
+
+.servicepart p {
+    font-size: 20px;
+}
+
+/* section2 4 boxes */
+.serviceflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1% 1%;
+    background-color: rgb(221, 219, 219);
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    background-color: white;
+    padding: 4% 3%;
+    height: 280px;
+    width: 24%;
+}
+
+/* icons */
+#box1 img,
+#box2 img,
+#box3 img,
+#box4 img {
+    height: 40px;
+    width: 40px;
+}
+
+/* section3  */
+/* portfolio text */
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.portfoliobutton button {
+    background-color: pink;
+    border: none;
+    color: rgb(211, 9, 76);
+    border-radius: 20px;
+    padding: 9px 12px;
+    font-size: 15px;
+}
+
+.portfoliobutton button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.portfolio b {
+    color: rgb(211, 9, 76);
+}
+
+.portfolio p {
+    font-size: 20px;
+}
+
+.portfolio_a button {
+    background-color: rgb(221, 219, 219);
+    border: none;
+    color: rgb(54, 54, 54);
+    border-radius: 20px;
+    padding: 5px 24px;
+    font-size: 15px;
+}
+
+.portfolio_a button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+/* portfolio images */
+.portfimg {
+    display: block;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.portfimg img {
+    height: 300px;
+    width: 400px;
+}
+
+/* section4 */
+.teamtext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.teamtext button {
+    background-color: pink;
+    border: none;
+    color: rgb(211, 9, 76);
+    border-radius: 20px;
+    padding: 9px 24px;
+    font-size: 15px;
+}
+
+.teamtext button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.teamtext b {
+    color: rgb(211, 9, 76);
+}
+
+.teamtext p {
+    font-size: 20px;
+}
+
+/* section4 4 team member */
+.members {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.members img {
+    height: 300px;
+    width: auto;
+}
+
+.t1 {
+    box-shadow: 1px 1px 10px rgb(119, 119, 119);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.t1:hover {
+    border: 1px solid gray;
+}
+
+#t2 {
+    padding: 6%;
+}
+
+#t2 p {
+    color: gray;
+}
+
+/* section5  */
+.contactus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.contactus button {
+    background-color: pink;
+    border: none;
+    color: rgb(211, 9, 76);
+    border-radius: 20px;
+    padding: 9px 24px;
+    font-size: 15px;
+}
+
+.contactus button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.contactus b {
+    color: rgb(211, 9, 76);
+}
+
+.contactus p {
+    font-size: 20px;
+}
+
+/* section5 form description */
+.loc {
+
+    height: 300px;
+    width: 80%;
+    margin-left: 130px;
+    background-color: rgb(177, 177, 177);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 370px;
+    width: 80%;
+    margin-left: 130px;
+
+}
+
+.details {
+    height: 370px;
+    width: 30%;
+}
+
+.details img {
+    height: 40px;
+    width: 40px;
+    background-color: pink;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.details h3 {
+    font-size: 20px;
+}
+
+.details p {
+    font-size: 15px;
+}
+
+.l {
+    display: inline-flex;
+    padding: 25px 10px;
+}
+
+.form {
+    padding: 25px 0px;
+    height: 370px;
+    width: 69.5%;
+}
+
+#nm,
+#em {
+    height: 40px;
+    width: 49.5%;
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+}
+
+#sb{
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+    height: 40px;
+    width: 100%;
+}
+#msg {
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+
+    width: 100%;
+}
+.form button{
+    margin-left:70%;
+    background-color: rgb(194, 25, 82);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius:30px ;
+    padding: 10px;
+}
+.form button:hover{
+    background-color:pink;
+    color:rgb(238, 7, 84) ;
+}
+
