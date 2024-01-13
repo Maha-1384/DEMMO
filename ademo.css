@@ -14,10 +14,11 @@ header {
     background-color: rgba(44, 43, 43, 0.3);
     position: fixed;
     color: white;
-    padding: 1% 10%;
+    padding: 1% 15%;
 }
 
 .navheader {
+
     z-index: 2;
 }
 
@@ -26,12 +27,12 @@ nav h1 {
 }
 
 nav li {
-    padding: 0% 15px;
-    display: inline-block;
+    display: inline;
     list-style: none;
 }
 
 nav li a {
+    padding: 2px;
     text-decoration: none;
     color: white;
     font-size: larger;
@@ -39,7 +40,6 @@ nav li a {
 
 nav li a:active {
     border-bottom: red;
-
 }
 
 nav li a:hover,
@@ -48,7 +48,7 @@ nav li a:hover,
 }
 
 .drp {
-    padding: 3%;
+    padding: 0%;
     box-shadow: none;
     border: none;
     color: white;
@@ -73,7 +73,7 @@ nav li a:hover,
     align-items: center;
     color: white;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -318,7 +318,6 @@ below service text is styled and of others */
 #msg {
     width: 100%;
 }
-
 
 .form button {
     margin-left: 70%;
