@@ -1,64 +1,44 @@
----
-
 # 🎯 DEMMO – Creative Portfolio Landing Page
-**DEMMO** is a modern, responsive, and visually engaging portfolio landing page designed to showcase creative work, team members, and contact informationBuilt with HTML and CSS, it serves as a sleek template for freelancers, designers, and small teams looking to establish a strong online presence
+
+**DEMMO** is a modern, responsive, and visually engaging portfolio landing page designed to showcase creative work, team members, and contact information. Built with HTML and CSS, it serves as a sleek template for freelancers, designers, and small teams looking to establish a strong online presence.
 
 ---
 
 ## 🌟 Features
 
-- **Hero Section** Captivating introduction with background imager.
-- **Portfolio Gallery** Showcase of projects with thumbnail.
-- **Team Section** Profiles of team members with image.
-- **Contact Information** Display of contact details including email and locatio.
-- **Responsive Design** Ensures optimal viewing across device.
+- **Hero Section**: Captivating introduction with background imagery.
+- **Portfolio Gallery**: Showcase of projects with thumbnails.
+- **Team Section**: Profiles of team members with images.
+- **Contact Information**: Display of contact details including email and location.
+- **Responsive Design**: Ensures optimal viewing across devices.
 
 ---
 
-## 🗂️ Project Structur
+## 🗂️ Project Structure
 
-The repository includes the following files and directoris:
+The repository includes the following files and directories:
 
-- `index.html: Main HTML file containing the structure of the webpae.
-- `ademo.css: CSS file for styling the webpae.
-- `hero-bg.jpg: Background image for the hero sectin.
-- `portfolio-1.jpg` to `portfolio-9.jpg: Images for the portfolio galley.
-- `team-1.jpg` to `team-4.jpg: Images representing team membes.
-- `a1.png` to `a4.png: Additional assets used in the desin.
-- `cal.png`, `em.png`, `loca.png: Icons representing calendar, email, and location respectivey.
+- `index.html`: Main HTML file containing the structure of the webpage.
+- `ademo.css`: CSS file for styling the webpage.
+- `hero-bg.jpg`: Background image for the hero section.
+- `portfolio-1.jpg` to `portfolio-9.jpg`: Images for the portfolio gallery.
+- `team-1.jpg` to `team-4.jpg`: Images representing team members.
+- `a1.png` to `a4.png`: Additional assets used in the design.
+- `cal.png`, `em.png`, `loca.png`: Icons representing calendar, email, and location respectively.
 
 ---
 
 ## 💻 Technologies Used
 
-- **HTML5*: For structuring the content of the webpge.
-- **CSS3*: For styling and responsive desgn.
+- **HTML5**: For structuring the content of the webpage.
+- **CSS3**: For styling and responsive design.
 
 ---
 
 ## 🚀 Getting Started
 
 To view the project locally:
-1. Clone the reposiory:
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Maha-1384/DEMMO.git
-   ``
-2. Navigate to the project direcory:
-   ```bash
-   cd DEMMO
-   ``
-3. Open `index.html` in your preferred web browser to explore the landing age.
-
----
-
-## 📬 Contact
-
-For feedback, suggestions, or collaboration opportunities:
-
-- **GitHub**: [@Maha-1384](https://github.com/Maha-1384)
-
-Feel free to reach out!
-
----
-
-*Thank you for visiting the DEMMO project! Your feedback and suggestions are always welcome.* 
